@@ -1,2 +1,6 @@
 .idea
 *.iml
+node_modules
+mysite/mysite/static
+mysite/mysite/__pycache__
+db.sqlite3
