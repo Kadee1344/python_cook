@@ -1,3 +1,5 @@
-body {
-  background: red;
-}
+@import "vars";
+@import "reset";
+@import "components/ColoredContainer";
+@import "components/Header";
+@import "components/MainContent";
