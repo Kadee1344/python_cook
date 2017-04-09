@@ -3,17 +3,17 @@ var sass = require('gulp-sass');
 var rigger = require('gulp-rigger');
 
 gulp.task('sass', function() {
-  return gulp.src('mysite/app/scss/**/*.scss')
+  return gulp.src('menu/app/scss/**/*.scss')
     .pipe(sass())
-    .pipe(gulp.dest('mysite/mysite/static/css'))
+    .pipe(gulp.dest('menu/static/css'))
 })
 
 gulp.task('watch', function(){
-  gulp.watch('mysite/app/scss/**/*.scss', ['sass']);
+  gulp.watch('menu/app/scss/**/*.scss', ['sass']);
 })
 
 gulp.task('rigger', function () {
-    gulp.src('mysite/app/js/main.js')
+    gulp.src('menu/app/js/main.js')
         .pipe(rigger())
-        .pipe(gulp.dest('mysite/mysite/static/scripts/'));
+        .pipe(gulp.dest('menu/static/scripts/'));
 });
