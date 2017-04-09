@@ -1,0 +1,1 @@
+//= components/customize_buttons
