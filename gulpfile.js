@@ -5,7 +5,7 @@ var rigger = require('gulp-rigger');
 gulp.task('sass', function() {
   return gulp.src('menu/app/scss/**/*.scss')
     .pipe(sass())
-    .pipe(gulp.dest('menu/static/css'))
+    .pipe(gulp.dest('menu/static/menu/css'))
 })
 
 gulp.task('watch', function(){
@@ -15,5 +15,5 @@ gulp.task('watch', function(){
 gulp.task('rigger', function () {
     gulp.src('menu/app/js/main.js')
         .pipe(rigger())
-        .pipe(gulp.dest('menu/static/scripts/'));
+        .pipe(gulp.dest('menu/static/menu/scripts/'));
 });
