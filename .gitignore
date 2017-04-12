@@ -2,6 +2,6 @@
 *.iml
 node_modules
 menu/static/menu/css
-menu/__pycache__
+__pycache__/
 db.sqlite3
 .DS_Store
