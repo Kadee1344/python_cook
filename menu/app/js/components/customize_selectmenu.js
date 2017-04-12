@@ -1,5 +1,5 @@
 (function($) {
   $(document).ready(function(){
-    $('.ButtonImport-button').button({});
+    $('.FormDay-select').selectmenu({});
   });
 }(jQuery));

@@ -1,5 +1,10 @@
 (function($) {
   $(document).ready(function(){
-    alert('sdf');
+    $('.ButtonImport-button').button({});
+  });
+}(jQuery));
+(function($) {
+  $(document).ready(function(){
+    $('.FormDay-select').selectmenu({});
   });
 }(jQuery));

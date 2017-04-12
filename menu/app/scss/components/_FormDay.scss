@@ -1,0 +1,13 @@
+.FormDay {
+  width: 100%;
+
+  &-day {
+    margin: 0 0 20px;
+  }
+
+  &-title {
+    color: blue;
+    font-weight: bold;
+    font-size: 18px;
+  }
+}
